@@ -487,7 +487,6 @@ body {
 .footer-subscribe {
   margin-left: auto;
 }
-
 .footer-subscribe-form {
   display: flex;
   gap: 24px;
@@ -505,7 +504,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: transparent;
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition: border-color var(--transition);
 }
 
@@ -514,7 +513,7 @@ body {
 }
 
 .footer-subscribe-input:focus {
-  border-color: var(--iris);
+  border-color: var(--green);
 }
 
 .footer-subscribe-btn {
@@ -539,7 +538,7 @@ body {
 
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
-  background-color: var(--ocean);
+  background-color: var(--green);
 }
 
 .footer-subscribe-icon {
